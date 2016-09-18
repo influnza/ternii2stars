@@ -1135,12 +1135,12 @@
             0 
           </default>
           <keyframes>
-            <S>
-              0 0 1.09921 0 
-            </S>
+            <L>
+              0 0 
+            </L>
             <S>
               <prev>
-                -180 -5.57265 50.5121 
+                -180 
               </prev>
               12 -180 4.56671 -41.394 
             </S>
@@ -1339,12 +1339,12 @@
             0 
           </default>
           <keyframes>
-            <S>
-              0 0 8 0 
-            </S>
+            <L>
+              0 0 
+            </L>
             <S>
               <prev>
-                -352.53 -3.66667 6.59742 
+                -352.53 
               </prev>
               47 -352.53 0.333333 -0.599766 
             </S>
@@ -1806,52 +1806,7 @@
     <fxnodes>
       <internal>
         <fxnode>
-          <STD_directionalBlurFx id='17'>
-            
-            <params>
-              <intensity>
-                <default>
-                  41.9947 
-                </default>
-                </intensity>
-              <bidirectional>
-                0 0 
-              </bidirectional>
-              <spread>
-                1 1 
-              </spread>
-              <angle>
-                <default>
-                  180 
-                </default>
-                </angle>
-              </params>
-            <ports>
-              <Source>
-                <Toonz_columnFx id='4'/>
-              </Source>
-              </ports>
-            <dagNodePos>
-              25166 24658 
-            </dagNodePos>
-            <numberId>
-              1 
-            </numberId>
-            <name>
-              DirectionalBlur01 
-            </name>
-            <fxId>
-              DirectionalBlur01 
-            </fxId>
-            <opened>
-              0 
-            </opened>
-            
-          </STD_directionalBlurFx>
-          
-        </fxnode>
-        <fxnode>
-          <STD_randomWaveFx id='18'>
+          <STD_randomWaveFx id='17'>
             
             <params>
               <intensity>
@@ -1885,7 +1840,49 @@
               </params>
             <ports>
               <Source>
-                <STD_directionalBlurFx id='17'/>
+                <STD_directionalBlurFx id='18'>
+                  
+                  <params>
+                    <intensity>
+                      <default>
+                        41.9947 
+                      </default>
+                      </intensity>
+                    <bidirectional>
+                      0 0 
+                    </bidirectional>
+                    <spread>
+                      1 1 
+                    </spread>
+                    <angle>
+                      <default>
+                        180 
+                      </default>
+                      </angle>
+                    </params>
+                  <ports>
+                    <Source>
+                      <Toonz_columnFx id='4'/>
+                    </Source>
+                    </ports>
+                  <dagNodePos>
+                    25166 24658 
+                  </dagNodePos>
+                  <numberId>
+                    1 
+                  </numberId>
+                  <name>
+                    DirectionalBlur01 
+                  </name>
+                  <fxId>
+                    DirectionalBlur01 
+                  </fxId>
+                  <opened>
+                    0 
+                  </opened>
+                  
+                </STD_directionalBlurFx>
+                
               </Source>
               </ports>
             <dagNodePos>
@@ -1907,8 +1904,23 @@
           </STD_randomWaveFx>
           
         </fxnode>
+        <fxnode>
+          <STD_directionalBlurFx id='18'/>
+        </fxnode>
         </internal>
       <terminal>
+        <fxnode>
+          <STD_randomWaveFx id='17'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='16'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='12'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='14'/>
+        </fxnode>
         <fxnode>
           <Toonz_columnFx id='6'/>
         </fxnode>
@@ -1916,19 +1928,7 @@
           <Toonz_columnFx id='8'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='16'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='14'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='12'/>
-        </fxnode>
-        <fxnode>
           <Toonz_columnFx id='10'/>
-        </fxnode>
-        <fxnode>
-          <STD_randomWaveFx id='18'/>
         </fxnode>
         </terminal>
       <xsheet>
@@ -1996,5 +1996,6 @@
     "| #1   17 сен 16   17:51   INFLUNZA-PC InflunZa        |"
     "| #2   17 сен 16   21:06   INFLUNZA-PC InflunZa        |"
     "| #3   17 сен 16   21:42   INFLUNZA-PC InflunZa        |"
+    "| #4   17 сен 16   22:10   INFLUNZA-PC InflunZa        |"
   </history>
   </tnz>

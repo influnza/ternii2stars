@@ -1,4 +1,4 @@
-<tnz framecount="24" version="71.0">
+<tnz framecount="48" version="71.0">
   <generator>
     "OpenToonz 1.1.1"
   </generator>
@@ -70,46 +70,6 @@
           25 25 
         </timestretch>
         <formatsProperties>
-          <formatProperties ext="tif">
-            <property name="Byte Ordering" type="enum" value="IBM PC">
-              <item value="IBM PC"/>
-              <item value="Mac"/>
-              </property>
-            <property name="Compression Type" type="enum" value="Lempel-Ziv & Welch encoding">
-              <item value="Lempel-Ziv & Welch encoding"/>
-              <item value="None"/>
-              <item value="Macintosh Run-length encoding"/>
-              <item value="ThunderScan Run-length encoding"/>
-              <item value="CCITT Group 3 fax encoding"/>
-              <item value="CCITT Group 4 fax encoding"/>
-              <item value="CCITT modified Huffman Run-length encoding"/>
-              <item value="JPEG compression"/>
-              <item value="JPEG compression 6.0"/>
-              <item value="SGILog"/>
-              <item value="SGILog24"/>
-              <item value="8"/>
-              <item value="zip"/>
-              <item value="Unknown"/>
-              </property>
-            <property name="Bits Per Pixel" type="enum" value="32(RGBM)">
-              <item value="24(RGB)"/>
-              <item value="48(RGB)"/>
-              <item value=" 1(BW)"/>
-              <item value=" 8(GREYTONES)"/>
-              <item value="32(RGBM)"/>
-              <item value="64(RGBM)"/>
-              </property>
-            <property name="Orientation" type="enum" value="Top Left">
-              <item value="Top Left"/>
-              <item value="Top Right"/>
-              <item value="Bottom Right"/>
-              <item value="Bottom Left"/>
-              <item value="Left Top"/>
-              <item value="Right Top"/>
-              <item value="Right Bottom"/>
-              <item value="Left Bottom"/>
-              </property>
-            </formatProperties>
           </formatsProperties>
         </output>
       <output name="preview">
@@ -162,46 +122,6 @@
           25 25 
         </timestretch>
         <formatsProperties>
-          <formatProperties ext="tif">
-            <property name="Byte Ordering" type="enum" value="IBM PC">
-              <item value="IBM PC"/>
-              <item value="Mac"/>
-              </property>
-            <property name="Compression Type" type="enum" value="Lempel-Ziv & Welch encoding">
-              <item value="Lempel-Ziv & Welch encoding"/>
-              <item value="None"/>
-              <item value="Macintosh Run-length encoding"/>
-              <item value="ThunderScan Run-length encoding"/>
-              <item value="CCITT Group 3 fax encoding"/>
-              <item value="CCITT Group 4 fax encoding"/>
-              <item value="CCITT modified Huffman Run-length encoding"/>
-              <item value="JPEG compression"/>
-              <item value="JPEG compression 6.0"/>
-              <item value="SGILog"/>
-              <item value="SGILog24"/>
-              <item value="8"/>
-              <item value="zip"/>
-              <item value="Unknown"/>
-              </property>
-            <property name="Bits Per Pixel" type="enum" value="32(RGBM)">
-              <item value="24(RGB)"/>
-              <item value="48(RGB)"/>
-              <item value=" 1(BW)"/>
-              <item value=" 8(GREYTONES)"/>
-              <item value="32(RGBM)"/>
-              <item value="64(RGBM)"/>
-              </property>
-            <property name="Orientation" type="enum" value="Top Left">
-              <item value="Top Left"/>
-              <item value="Top Right"/>
-              <item value="Bottom Right"/>
-              <item value="Bottom Left"/>
-              <item value="Left Top"/>
-              <item value="Right Top"/>
-              <item value="Right Bottom"/>
-              <item value="Left Bottom"/>
-              </property>
-            </formatProperties>
           </formatsProperties>
         </output>
       </outputs>
@@ -343,18 +263,10 @@
   <levelSet>
     <levels>
       <level id='1'>
-        A 
-        <info dpiType="image"/>
-        <path>
-          "C:\\OpenToonz 1.1 stuff\\sandbox\\drawings\\A.tlv"
-        </path>
-        
-      </level>
-      <level id='2'>
         "Steam car working level"
         <info dpix="53.333330" dpiy="53.333330"/>
         <path>
-          "C:\\Projects\\ternii2stars\\Car scene\\Steam car working level.pli"
+          "+scenes\\Steam car working level.pli"
         </path>
         
       </level>
@@ -362,7 +274,7 @@
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <level id='1'/><level id='2'/>
+        <level id='1'/>
       </levels>
       </folder>
     <folder name="Audio">
@@ -370,59 +282,18 @@
     </levelSet>
   <xsheet>
     <columns>
-      <levelColumn id='3'>
-        
-        <status>
-          3 
-        </status>
-        <cells>
-          <cell>
-            0 1 <level id='1'/>0001 0 
-          </cell>
-          <cell>
-            6 3 <level id='2'/>0001 1 
-          </cell>
-          </cells>
-        <fx>
-          <Toonz_columnFx id='4'>
-            
-            <params>
-              </params>
-            <ports>
-              </ports>
-            <dagNodePos>
-              25005 25005 
-            </dagNodePos>
-            <numberId>
-              0 
-            </numberId>
-            <name>
-              LevelColumn 
-            </name>
-            <fxId>
-              "" 
-            </fxId>
-            <opened>
-              0 
-            </opened>
-            
-          </Toonz_columnFx>
-          
-        </fx>
-        
-      </levelColumn>
-      <levelColumn id='5'>
+      <levelColumn id='2'>
         
         <status>
           0 
         </status>
         <cells>
           <cell>
-            0 24 <level id='2'/>0001 0 
+            0 48 <level id='1'/>0001 0 
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='6'>
+          <Toonz_columnFx id='3'>
             
             <params>
               </params>
@@ -449,18 +320,18 @@
         </fx>
         
       </levelColumn>
-      <levelColumn id='7'>
+      <levelColumn id='4'>
         
         <status>
           0 
         </status>
         <cells>
           <cell>
-            0 24 <level id='2'/>0002 0 
+            0 48 <level id='1'/>0002 0 
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='8'>
+          <Toonz_columnFx id='5'>
             
             <params>
               </params>
@@ -487,18 +358,18 @@
         </fx>
         
       </levelColumn>
-      <levelColumn id='9'>
+      <levelColumn id='6'>
         
         <status>
-          1 
+          0 
         </status>
         <cells>
           <cell>
-            0 1 <level id='2'/>0003 0 
+            0 48 <level id='1'/>0003 0 
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='10'>
+          <Toonz_columnFx id='7'>
             
             <params>
               </params>
@@ -506,6 +377,44 @@
               </ports>
             <dagNodePos>
               25005 24855 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='8'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 48 <level id='1'/>0004 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='9'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 25005 
             </dagNodePos>
             <numberId>
               0 
@@ -556,7 +465,7 @@
           </default>
           </sc>
         <nodePos>
-          24500 25550 
+          24121.2 25640.6 
         </nodePos>
         <camera>
           <cameraSize>
@@ -601,7 +510,7 @@
           </default>
           </sc>
         <nodePos>
-          24500 25500 
+          24020.2 25510.4 
         </nodePos>
         </pegbar>
       <pegbar id="Col1">
@@ -611,38 +520,7 @@
           0 
         </isOpened>
         <center>
-          0 0 0 0 
-        </center>
-        <status>
-          0 
-        </status>
-        <sx>
-          <default>
-            1 
-          </default>
-          </sx>
-        <sy>
-          <default>
-            1 
-          </default>
-          </sy>
-        <sc>
-          <default>
-            1 
-          </default>
-          </sc>
-        <nodePos>
-          24620 25500 
-        </nodePos>
-        </pegbar>
-      <pegbar id="Col2">
-        <parent handle="B" id="Table" parentHandle="B">
-          </parent>
-        <isOpened>
-          0 
-        </isOpened>
-        <center>
-          0 0 0 0 
+          -4.21936 -0.644998 4.21936 0.644998 
         </center>
         <status>
           0 
@@ -659,13 +537,13 @@
               <prev>
                 0 -4 0 
               </prev>
-              12 0 3.66667 0 
+              12 0 4 0 
             </S>
             <L>
               <prev>
-                0 -3.66667 0 
+                0 -4 0 
               </prev>
-              23 0 
+              24 0 
             </L>
             </keyframes>
           </x>
@@ -681,13 +559,13 @@
               <prev>
                 0 -4 0 
               </prev>
-              12 0 3.66667 0 
+              12 0 4 0 
             </S>
             <L>
               <prev>
-                0 -3.66667 0 
+                0 -4 0 
               </prev>
-              23 0 
+              24 0 
             </L>
             </keyframes>
           </y>
@@ -703,13 +581,13 @@
               <prev>
                 0 -4 0 
               </prev>
-              12 0 3.66667 0 
+              12 0 4 0 
             </S>
             <L>
               <prev>
-                0 -3.66667 0 
+                0 -4 0 
               </prev>
-              23 0 
+              24 0 
             </L>
             </keyframes>
           </z>
@@ -725,13 +603,13 @@
               <prev>
                 0 -4 0 
               </prev>
-              12 0 3.66667 0 
+              12 0 4 0 
             </S>
             <L>
               <prev>
-                0 -3.66667 0 
+                0 -4 0 
               </prev>
-              23 0 
+              24 0 
             </L>
             </keyframes>
           </so>
@@ -745,15 +623,15 @@
             </S>
             <S>
               <prev>
-                1.01599 -4 0 
+                1 -4 0 
               </prev>
-              12 1.01599 3.66667 0 
+              12 1 4 0 
             </S>
             <L>
               <prev>
-                1 -3.66667 0 
+                1 -4 0 
               </prev>
-              23 1 
+              24 1 
             </L>
             </keyframes>
           </sx>
@@ -767,15 +645,15 @@
             </S>
             <S>
               <prev>
-                0.683528 -4 0 
+                1 -4 0 
               </prev>
-              12 0.683528 3.66667 0 
+              12 1 4 0 
             </S>
             <L>
               <prev>
-                1 -3.66667 0 
+                1 -4 0 
               </prev>
-              23 1 
+              24 1 
             </L>
             </keyframes>
           </sy>
@@ -791,13 +669,13 @@
               <prev>
                 1 -4 0 
               </prev>
-              12 1 3.66667 0 
+              12 1 4 0 
             </S>
             <L>
               <prev>
-                1 -3.66667 0 
+                1 -4 0 
               </prev>
-              23 1 
+              24 1 
             </L>
             </keyframes>
           </sc>
@@ -813,13 +691,13 @@
               <prev>
                 0 -4 0 
               </prev>
-              12 0 3.66667 0 
+              12 0 4 0 
             </S>
             <L>
               <prev>
-                0 -3.66667 0 
+                0 -4 0 
               </prev>
-              23 0 
+              24 0 
             </L>
             </keyframes>
           </rot>
@@ -835,13 +713,13 @@
               <prev>
                 0 -4 0 
               </prev>
-              12 0 3.66667 0 
+              12 0 4 0 
             </S>
             <L>
               <prev>
-                0 -3.66667 0 
+                0 -4 0 
               </prev>
-              23 0 
+              24 0 
             </L>
             </keyframes>
           </pos>
@@ -857,13 +735,13 @@
               <prev>
                 0 -4 0 
               </prev>
-              12 0 3.66667 0 
+              12 0 4 0 
             </S>
             <L>
               <prev>
-                0 -3.66667 0 
+                0 -4 0 
               </prev>
-              23 0 
+              24 0 
             </L>
             </keyframes>
           </shx>
@@ -879,28 +757,28 @@
               <prev>
                 0 -4 0 
               </prev>
-              12 0 3.66667 0 
+              12 0 4 0 
             </S>
             <L>
               <prev>
-                0 -3.66667 0 
+                0 -4 0 
               </prev>
-              23 0 
+              24 0 
             </L>
             </keyframes>
           </shy>
         <nodePos>
-          24620 25450 
+          24146.3 25505.2 
         </nodePos>
         </pegbar>
-      <pegbar id="Col3">
-        <parent handle="B" id="Table" parentHandle="B">
+      <pegbar id="Col2">
+        <parent handle="B" id="Col1" parentHandle="B">
           </parent>
         <isOpened>
           0 
         </isOpened>
         <center>
-          -6.99107 -3.31473 6.99107 3.31473 
+          1.37062 -3.95061 -1.37062 3.95061 
         </center>
         <status>
           0 
@@ -910,8 +788,20 @@
             0 
           </default>
           <keyframes>
+            <S>
+              0 0 2 0 
+            </S>
+            <S>
+              <prev>
+                0 -6 0 
+              </prev>
+              24 0 6 0 
+            </S>
             <L>
-              0 0 
+              <prev>
+                0 -7.66667 0 
+              </prev>
+              47 0 
             </L>
             </keyframes>
           </x>
@@ -920,8 +810,20 @@
             0 
           </default>
           <keyframes>
+            <S>
+              0 0 2 0 
+            </S>
+            <S>
+              <prev>
+                0 -6 0 
+              </prev>
+              24 0 6 0 
+            </S>
             <L>
-              0 0 
+              <prev>
+                0 -7.66667 0 
+              </prev>
+              47 0 
             </L>
             </keyframes>
           </y>
@@ -930,8 +832,20 @@
             0 
           </default>
           <keyframes>
+            <S>
+              0 0 2 0 
+            </S>
+            <S>
+              <prev>
+                0 -6 0 
+              </prev>
+              24 0 6 0 
+            </S>
             <L>
-              0 0 
+              <prev>
+                0 -7.66667 0 
+              </prev>
+              47 0 
             </L>
             </keyframes>
           </z>
@@ -940,8 +854,20 @@
             0 
           </default>
           <keyframes>
+            <S>
+              0 0 2 0 
+            </S>
+            <S>
+              <prev>
+                0 -6 0 
+              </prev>
+              24 0 6 0 
+            </S>
             <L>
-              0 0 
+              <prev>
+                0 -7.66667 0 
+              </prev>
+              47 0 
             </L>
             </keyframes>
           </so>
@@ -950,8 +876,20 @@
             1 
           </default>
           <keyframes>
+            <S>
+              0 1 2 0 
+            </S>
+            <S>
+              <prev>
+                1 -6 0 
+              </prev>
+              24 1 6 0 
+            </S>
             <L>
-              0 1 
+              <prev>
+                1 -7.66667 0 
+              </prev>
+              47 1 
             </L>
             </keyframes>
           </sx>
@@ -960,8 +898,20 @@
             1 
           </default>
           <keyframes>
+            <S>
+              0 1 2 0 
+            </S>
+            <S>
+              <prev>
+                1 -6 0 
+              </prev>
+              24 1 6 0 
+            </S>
             <L>
-              0 1 
+              <prev>
+                1 -7.66667 0 
+              </prev>
+              47 1 
             </L>
             </keyframes>
           </sy>
@@ -970,8 +920,20 @@
             1 
           </default>
           <keyframes>
+            <S>
+              0 1 2 0 
+            </S>
+            <S>
+              <prev>
+                1 -6 0 
+              </prev>
+              24 1 6 0 
+            </S>
             <L>
-              0 1 
+              <prev>
+                1 -7.66667 0 
+              </prev>
+              47 1 
             </L>
             </keyframes>
           </sc>
@@ -980,8 +942,38 @@
             0 
           </default>
           <keyframes>
+            <S>
+              0 0 1.09921 0 
+            </S>
+            <S>
+              <prev>
+                -180.65 -5.57265 50.5121 
+              </prev>
+              12 -180.65 4.56671 -41.394 
+            </S>
+            <S>
+              <prev>
+                -360.751 -2.70237 0 
+              </prev>
+              24 -360.751 3.1759 0 
+            </S>
+            <S>
+              <prev>
+                -541.129 -4.5275 -0.201926 
+              </prev>
+              36 -541.129 3.67307 0.163819 
+            </S>
+            <S>
+              <prev>
+                -716.232 -3.50188 26.1445 
+              </prev>
+              47 -716.232 0.336457 -2.51193 
+            </S>
             <L>
-              0 0 
+              <prev>
+                -720.121 -0.330069 0 
+              </prev>
+              48 -720.121 
             </L>
             </keyframes>
           </rot>
@@ -990,8 +982,20 @@
             0 
           </default>
           <keyframes>
+            <S>
+              0 0 2 0 
+            </S>
+            <S>
+              <prev>
+                0 -6 0 
+              </prev>
+              24 0 6 0 
+            </S>
             <L>
-              0 0 
+              <prev>
+                0 -7.66667 0 
+              </prev>
+              47 0 
             </L>
             </keyframes>
           </pos>
@@ -1000,8 +1004,20 @@
             0 
           </default>
           <keyframes>
+            <S>
+              0 0 2 0 
+            </S>
+            <S>
+              <prev>
+                0 -6 0 
+              </prev>
+              24 0 6 0 
+            </S>
             <L>
-              0 0 
+              <prev>
+                0 -7.66667 0 
+              </prev>
+              47 0 
             </L>
             </keyframes>
           </shx>
@@ -1010,17 +1026,293 @@
             0 
           </default>
           <keyframes>
+            <S>
+              0 0 2 0 
+            </S>
+            <S>
+              <prev>
+                0 -6 0 
+              </prev>
+              24 0 6 0 
+            </S>
             <L>
-              0 0 
+              <prev>
+                0 -7.66667 0 
+              </prev>
+              47 0 
             </L>
             </keyframes>
           </shy>
         <nodePos>
-          24620 25400 
+          24292.6 25533.2 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col3">
+        <parent handle="B" id="Col1" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -6.93373 -3.30562 6.93373 3.30562 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <S>
+              0 0 8 0 
+            </S>
+            <S>
+              <prev>
+                0 -8 0 
+              </prev>
+              24 0 8 0 
+            </S>
+            <L>
+              <prev>
+                0 -7.66667 0 
+              </prev>
+              47 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <S>
+              0 0 8 0 
+            </S>
+            <S>
+              <prev>
+                0 -8 0 
+              </prev>
+              24 0 8 0 
+            </S>
+            <L>
+              <prev>
+                0 -7.66667 0 
+              </prev>
+              47 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <S>
+              0 0 8 0 
+            </S>
+            <S>
+              <prev>
+                0 -8 0 
+              </prev>
+              24 0 8 0 
+            </S>
+            <L>
+              <prev>
+                0 -7.66667 0 
+              </prev>
+              47 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <S>
+              0 0 8 0 
+            </S>
+            <S>
+              <prev>
+                0 -8 0 
+              </prev>
+              24 0 8 0 
+            </S>
+            <L>
+              <prev>
+                0 -7.66667 0 
+              </prev>
+              47 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <S>
+              0 1 8 0 
+            </S>
+            <S>
+              <prev>
+                1 -8 0 
+              </prev>
+              24 1 8 0 
+            </S>
+            <L>
+              <prev>
+                1 -7.66667 0 
+              </prev>
+              47 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <S>
+              0 1 8 0 
+            </S>
+            <S>
+              <prev>
+                1 -8 0 
+              </prev>
+              24 1 8 0 
+            </S>
+            <L>
+              <prev>
+                1 -7.66667 0 
+              </prev>
+              47 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <S>
+              0 1 8 0 
+            </S>
+            <S>
+              <prev>
+                1 -8 0 
+              </prev>
+              24 1 8 0 
+            </S>
+            <L>
+              <prev>
+                1 -7.66667 0 
+              </prev>
+              47 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <S>
+              0 0 8 0 
+            </S>
+            <S>
+              <prev>
+                -179.753 -8 0 
+              </prev>
+              24 -179.753 7.66667 0 
+            </S>
+            <S>
+              <prev>
+                -359.083 -7.66667 13.7946 
+              </prev>
+              47 -359.083 0.333333 -0.599766 
+            </S>
+            <L>
+              <prev>
+                -359.996 -0.333333 0 
+              </prev>
+              48 -359.996 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <S>
+              0 0 8 0 
+            </S>
+            <S>
+              <prev>
+                0 -8 0 
+              </prev>
+              24 0 8 0 
+            </S>
+            <L>
+              <prev>
+                0 -7.66667 0 
+              </prev>
+              47 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <S>
+              0 0 8 0 
+            </S>
+            <S>
+              <prev>
+                0 -8 0 
+              </prev>
+              24 0 8 0 
+            </S>
+            <L>
+              <prev>
+                0 -7.66667 0 
+              </prev>
+              47 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <S>
+              0 0 8 0 
+            </S>
+            <S>
+              <prev>
+                0 -8 0 
+              </prev>
+              24 0 8 0 
+            </S>
+            <L>
+              <prev>
+                0 -7.66667 0 
+              </prev>
+              47 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24291.8 25479.7 
         </nodePos>
         </pegbar>
       <pegbar id="Col4">
-        <parent handle="B" id="Table" parentHandle="B">
+        <parent handle="B" id="Col1" parentHandle="B">
           </parent>
         <isOpened>
           0 
@@ -1047,7 +1339,7 @@
           </default>
           </sc>
         <nodePos>
-          24620 25350 
+          24297.1 25595.1 
         </nodePos>
         </pegbar>
       <grid_dimension>
@@ -1057,20 +1349,20 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='8'/>
+          <Toonz_columnFx id='9'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='10'/>
+          <Toonz_columnFx id='3'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='4'/>
+          <Toonz_columnFx id='5'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='6'/>
+          <Toonz_columnFx id='7'/>
         </fxnode>
         </terminal>
       <xsheet>
-        <Toonz_xsheetFx id='11'>
+        <Toonz_xsheetFx id='10'>
           
           <params>
             </params>
@@ -1096,13 +1388,13 @@
         
       </xsheet>
       <output>
-        <Toonz_outputFx id='12'>
+        <Toonz_outputFx id='11'>
           
           <params>
             </params>
           <ports>
             <source>
-              <Toonz_xsheetFx id='11'/>
+              <Toonz_xsheetFx id='10'/>
             </source>
             </ports>
           <dagNodePos>
@@ -1131,7 +1423,6 @@
     </xsheet>
   <history>
     "| #    DATE:       Time:   MACHINE:    USER:           |"
-    "| #1   17 сен 16   15:29   INFLUNZA-TIMinflunza        |"
-    "| #2   17 сен 16   15:51   INFLUNZA-TIMinflunza        |"
+    "| #1   17 сен 16   17:20   INFLUNZA-PC InflunZa        |"
   </history>
   </tnz>

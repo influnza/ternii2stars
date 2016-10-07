@@ -1,4 +1,4 @@
-<tnz framecount="123" version="71.0">
+<tnz framecount="120" version="71.0">
   <generator>
     "OpenToonz 1.1.1"
   </generator>
@@ -426,7 +426,7 @@
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <level id='1'/><level id='4'/><level id='3'/><level id='8'/><level id='5'/><level id='7'/><level id='9'/><level id='2'/><level id='6'/><level id='10'/>
+        <level id='3'/><level id='4'/><level id='2'/><level id='1'/><level id='5'/><level id='6'/><level id='7'/><level id='9'/><level id='8'/><level id='10'/>
       </levels>
       </folder>
     <folder name="Audio">
@@ -447,7 +447,7 @@
             48 48 <level id='1'/>0001 1 
           </cell>
           <cell>
-            96 17 <level id='1'/>0001 1 
+            96 19 <level id='1'/>0001 1 
           </cell>
           </cells>
         <fx>
@@ -485,7 +485,7 @@
         </status>
         <cells>
           <cell>
-            54 69 <level id='7'/>0001 0 
+            54 66 <level id='7'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -523,7 +523,7 @@
         </status>
         <cells>
           <cell>
-            54 46 <level id='8'/>0001 0 
+            54 66 <level id='8'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -561,7 +561,7 @@
         </status>
         <cells>
           <cell>
-            54 46 <level id='9'/>0001 0 
+            54 66 <level id='9'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -599,7 +599,7 @@
         </status>
         <cells>
           <cell>
-            54 46 <level id='4'/>0001 0 
+            54 66 <level id='4'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -637,7 +637,7 @@
         </status>
         <cells>
           <cell>
-            54 46 <level id='5'/>0001 0 
+            54 66 <level id='5'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -675,7 +675,7 @@
         </status>
         <cells>
           <cell>
-            54 46 <level id='6'/>0001 0 
+            54 66 <level id='6'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -713,7 +713,7 @@
         </status>
         <cells>
           <cell>
-            54 46 <level id='3'/>0001 0 
+            54 66 <level id='3'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -751,7 +751,7 @@
         </status>
         <cells>
           <cell>
-            54 46 <level id='10'/>0001 0 
+            54 66 <level id='10'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -2487,13 +2487,10 @@
           <Toonz_columnFx id='18'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='24'/>
+          <Toonz_columnFx id='22'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='26'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='28'/>
+          <Toonz_columnFx id='16'/>
         </fxnode>
         <fxnode>
           <Toonz_columnFx id='12'/>
@@ -2502,10 +2499,13 @@
           <Toonz_columnFx id='14'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='16'/>
+          <Toonz_columnFx id='24'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='22'/>
+          <Toonz_columnFx id='26'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='28'/>
         </fxnode>
         </terminal>
       <xsheet>
@@ -2572,5 +2572,6 @@
     "| #    DATE:       Time:   MACHINE:    USER:           |"
     "| #1   18 сен 16   19:08   INFLUNZA-PC InflunZa        |"
     "| #2   24 сен 16   17:05   INFLUNZA-TIMinflunza        |"
+    "| #3   02 окт 16   19:34   INFLUNZA-PC InflunZa        |"
   </history>
   </tnz>

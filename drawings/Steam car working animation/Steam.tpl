@@ -19,6 +19,12 @@
     <style>
       color_4 3 255 255 255 0 
     </style>
+    <style>
+      color_2 3 117 117 117 202 
+    </style>
+    <style>
+      color_2 3 117 117 117 202 
+    </style>
     </styles>
   <stylepages>
     <page>
@@ -26,7 +32,7 @@
         colors 
       </name>
       <indices>
-        0 1 2 3 4 
+        0 1 2 5 6 3 4 
       </indices>
       </page>
     </stylepages>
